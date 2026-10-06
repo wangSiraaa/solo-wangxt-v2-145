@@ -23,3 +23,10 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# 前端构建产物
+frontend/dist/
+
+# PostgreSQL 数据（保留二进制，忽略数据目录与日志）
+.pg/data/
+.pg/pg.log
