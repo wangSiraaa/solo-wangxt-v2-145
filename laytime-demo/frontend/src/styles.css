@@ -1,0 +1,50 @@
+:root {
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  color: #1c2733;
+  background: #f4f6f8;
+}
+body { margin: 0; }
+.app { max-width: 1180px; margin: 0 auto; padding: 16px 24px 48px; }
+header h1 { font-size: 22px; margin-bottom: 4px; }
+.disclaimer { color: #8a5a00; background: #fff7e6; padding: 6px 10px; border-radius: 6px; font-size: 13px; }
+.layout { display: flex; gap: 24px; margin-top: 12px; }
+aside { width: 260px; flex-shrink: 0; }
+aside h2 { font-size: 15px; }
+.voyage-list { list-style: none; padding: 0; margin: 0; }
+.voyage-list li { padding: 10px 12px; border-radius: 8px; cursor: pointer; margin-bottom: 6px; background: #fff; border: 1px solid #e2e8f0; }
+.voyage-list li.active { border-color: #2563eb; background: #eff6ff; }
+.voyage-list strong { display: block; font-size: 14px; }
+.voyage-list span { font-size: 12px; color: #64748b; }
+main { flex: 1; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px 24px; }
+h2 small { display: block; font-weight: normal; color: #64748b; font-size: 13px; margin-top: 4px; }
+h3 { font-size: 16px; margin-top: 24px; }
+h3 small { font-weight: normal; color: #94a3b8; font-size: 12px; margin-left: 8px; }
+h4 { font-size: 14px; margin: 18px 0 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { border: 1px solid #e2e8f0; padding: 6px 8px; text-align: left; }
+th { background: #f8fafc; }
+tr.pending td { background: #fffbeb; }
+.badge { padding: 1px 8px; border-radius: 10px; font-size: 12px; }
+.badge.verified { background: #dcfce7; color: #166534; }
+.badge.pending { background: #fef3c7; color: #92400e; }
+.note { font-size: 12px; color: #64748b; }
+.clauses { font-size: 13px; line-height: 1.7; padding-left: 18px; }
+.totals { display: flex; flex-wrap: wrap; gap: 12px; }
+.totals > div { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 16px; min-width: 120px; }
+.totals label { display: block; font-size: 12px; color: #64748b; }
+.totals b { font-size: 17px; }
+.totals .money b { color: #b91c1c; }
+.line { border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 8px; padding: 8px 12px; }
+.line summary { cursor: pointer; font-size: 13px; }
+.line .tag { display: inline-block; background: #e0e7ff; color: #3730a3; border-radius: 4px; padding: 0 6px; margin-right: 8px; font-size: 12px; }
+.line.demurrage .tag { background: #fee2e2; color: #991b1b; }
+.line.despatch .tag { background: #dcfce7; color: #166534; }
+.intervals { margin: 10px 0; }
+tr.excluded td { background: #fef2f2; }
+tr.counted td { background: #f0fdf4; }
+.warning { background: #fef3c7; border-radius: 6px; padding: 8px 12px; font-size: 13px; }
+.error { color: #b91c1c; }
+.hint { color: #64748b; }
+.blocked { background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 4px 16px 12px; }
+button { background: #2563eb; color: #fff; border: none; border-radius: 6px; padding: 8px 18px; font-size: 14px; cursor: pointer; margin-top: 12px; }
+button:hover { background: #1d4ed8; }
